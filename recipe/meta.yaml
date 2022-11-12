@@ -1,5 +1,5 @@
 {% set name = "gwmemory" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gwmemory-{{ version }}.tar.gz
-  sha256: 69315179cdab767cc4023eabd7f6c9eddabe17b2a4ca744d8e4588e9e808f752
+  sha256: d7eed06703208148fa27435e7bc03fd673b7d22defc48563ef53af0d225e50b0
 
 build:
   noarch: python
