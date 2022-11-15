@@ -1,5 +1,5 @@
 {% set name = "gwmemory" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gwmemory-{{ version }}.tar.gz
-  sha256: 4acc34cc12b8388684a1540e792530890e00d8b79ceeb34501110851620b447c
+  sha256: 3f64183e6c30aa986ddf24aa62a49f2e351104c8653af7a321f7aa735d9f9392
 
 build:
   noarch: python
@@ -23,7 +23,6 @@ requirements:
   run:
     - python >=3.7
     - numpy
-    - pandas
     - scipy
     - sympy
 
